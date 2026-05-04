@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![BidHub Banner](https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=1200&h=400&fit=crop&q=80)
 
 [![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
