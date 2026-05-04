@@ -13,7 +13,21 @@
 
 **A full-stack, production-ready real-time auction platform where every second counts.**
 
-[Live Demo](#) · [Documentation](./docs) · [Report Bug](../../issues) · [Request Feature](../../issues)
+## 🚀 Live Demo & Purchase
+
+<div align="center">
+
+<a href="https://rzp.io/rzp/mern-1" target="_blank">
+  <img src="https://img.shields.io/badge/💳%20Purchase%20Now-FF6B35?style=for-the-badge&logo=buymeacoffee&logoColor=white" />
+</a>
+
+<br>
+
+<a href="https://youtu.be/lK_ry36ByAs" target="_blank">
+  <img src="https://img.shields.io/badge/🎥%20Watch%20Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+
+</div>
 
 </div>
 
@@ -37,7 +51,6 @@
 - [Screenshots](#-screenshots)
 - [Deployment](#-deployment)
 - [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ---
@@ -457,43 +470,6 @@ Each auction has a dedicated room named by its MongoDB `_id`.
 - [ ] **Rate limiting on bids** — `express-rate-limit` on `POST /api/bids`
 - [ ] **Profile settings page** — self-service name + avatar update
 - [ ] **SMS notifications** — Twilio integration for outbid alerts
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-```bash
-# 1. Fork the repository
-# 2. Create your feature branch
-git checkout -b feature/amazing-feature
-
-# 3. Commit your changes
-git commit -m 'feat: add amazing feature'
-
-# 4. Push to your branch
-git push origin feature/amazing-feature
-
-# 5. Open a Pull Request
-```
-
-**Commit convention** ([Conventional Commits](https://www.conventionalcommits.org)):
-
-```
-feat:     New feature
-fix:      Bug fix
-docs:     Documentation only
-style:    Formatting, no logic change
-refactor: Code change without feature/fix
-test:     Tests
-chore:    Build / tooling
-```
-
-**Dev tips:**
-- Test Socket.IO features by opening multiple browser tabs simultaneously
-- Use `node seed.js` to reset the database to a clean demo state
-- The Login page has demo quick-fill buttons — no need to memorise credentials
 
 ---
 
